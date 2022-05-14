@@ -111,3 +111,64 @@ body {
 .br {
   display: block;
 }
+
+@media screen and (max-width: 1025px) {
+
+  .slider {
+    margin: 5% auto;
+  }
+
+  .slider_pagin {
+    margin: 4% 40%;
+    width: 20vw;
+  }
+
+  .radio {
+    width: 1.2em;
+    height: 1.2em;
+  }
+
+  .text {
+    font-size: 3vw;
+    line-height: 5vw;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+
+  .slider {
+    width: 90vw;
+    margin: 10% auto;
+  }
+    
+  .slider_image1,
+  .slider_image3 {
+    width: 90vw;
+  }
+    
+  .slider_image2,
+  .slider_image4 {
+    width: 90vw;
+  }
+    
+  .slider_pagin {
+    margin: 6% 30%;
+    width: 40vw;
+  }
+    
+  .radio {
+    width: 1.2em;
+    height: 1.2em;
+  }
+    
+  .text {
+    font-size: 5vw;
+    line-height: 10vw;
+  }
+    
+  .br {
+    display: none;
+  }
+
+}
